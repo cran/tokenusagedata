@@ -1,0 +1,59 @@
+citHeader(
+  paste(
+    "To cite data used from 'tokenusagedata', cite the corresponding",
+    "record below and credit tokenusage.dev.",
+    "Retain source-specific credits and identify any changes."
+  )
+)
+
+bibentry(
+  bibtype = "Misc",
+  title = paste(
+    "AI API list prices, 2022-2026",
+    "(tokenusage.dev research note 002)"
+  ),
+  author = person("Pistachio Technology Inc."),
+  year = "2026",
+  howpublished = "Zenodo",
+  doi = "10.5281/zenodo.23552904",
+  url = "https://tokenusage.dev/publications/oct-26-token-prices",
+  note = paste(
+    "Data set, version 2026-10 snapshot.",
+    "Reuse credit: tokenusage.dev"
+  )
+)
+
+bibentry(
+  bibtype = "Misc",
+  title = paste(
+    "Published AI context windows, 2018-2026",
+    "(tokenusage.dev research note 003)"
+  ),
+  author = person("Pistachio Technology Inc."),
+  year = "2026",
+  howpublished = "Zenodo",
+  doi = "10.5281/zenodo.23552975",
+  url = "https://tokenusage.dev/publications/oct-26-context-windows",
+  note = paste(
+    "Data set, version 2026-10 snapshot.",
+    "Reuse credit: tokenusage.dev"
+  )
+)
+
+bibentry(
+  bibtype = "Misc",
+  title = paste(
+    "AI model parameter counts, 2018-2026",
+    "(tokenusage.dev research note 004)"
+  ),
+  author = person("Pistachio Technology Inc."),
+  year = "2026",
+  howpublished = "Zenodo",
+  doi = "10.5281/zenodo.23553072",
+  url = "https://tokenusage.dev/publications/oct-26-model-sizes",
+  note = paste(
+    "Data set, version 2026-10 snapshot.",
+    "Reuse credit: tokenusage.dev.",
+    "Epoch AI results retain their additional source credits"
+  )
+)

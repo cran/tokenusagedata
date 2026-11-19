@@ -1,0 +1,33 @@
+Package: tokenusagedata
+Title: AI Token Prices, Context Windows and Model Sizes
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Jack", family = "He",
+           email = "jack.beanstalk.2022@gmail.com",
+           role = c("aut", "cre")),
+    person("Pistachio Technology Inc.", role = "cph"))
+Description: Provides five documented data frames for analysing artificial
+    intelligence (AI) model application programming interface (API) prices,
+    published context windows, and published or estimated parameter counts.
+    Fixed October 2026 snapshots retain source URLs and qualifications and
+    add typed dates and numeric quantities for reproducible comparisons and
+    teaching. Data are from Pistachio Technology Inc. (2026), published at
+    <https://tokenusage.dev/publications>:
+    API prices <doi:10.5281/zenodo.23552904>,
+    context windows <doi:10.5281/zenodo.23552975>, and
+    model sizes <doi:10.5281/zenodo.23553072>.
+    These are selected historical records; estimated sizes are distinguished
+    from lab disclosures.
+License: CC BY 4.0
+Encoding: UTF-8
+Depends: R (>= 3.5)
+LazyData: true
+LazyDataCompression: xz
+NeedsCompilation: no
+URL: https://tokenusage.dev/publications
+Packaged: 2026-10-28 16:29:11 UTC; haohe
+Author: Jack He [aut, cre],
+  Pistachio Technology Inc. [cph]
+Maintainer: Jack He <jack.beanstalk.2022@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-11-19 15:00:02 UTC
